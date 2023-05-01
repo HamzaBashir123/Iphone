@@ -17,17 +17,22 @@ body{
   top: 0;
   width: 100%;
 }
-.navbutton{
+.navbar-toggler{
+    border: none !important;
+    font-size: medium !important;
+}
+.navbar-toggler:active{
     border: none !important;
 }
+
 .header{
-    /* padding: 10px; */
+    padding: 10px;
     /* background-color: black; */
-    /* color: rgb(204, 204, 204); */
-    /* list-style: none; */
-    /* display: flex; */
-    /* border: 2px solid blue; */
-    /* justify-content: center !important; */
+    color: rgb(204, 204, 204);
+    list-style: none;
+    display: flex;
+    /* border : 2px solid blue; */
+    justify-content: center !important;
 
 }
 .whiteLogo{
@@ -55,6 +60,7 @@ body{
     padding: 0;
     /* margin-right: 35px; */
 }
+
 
 nav li{
     
